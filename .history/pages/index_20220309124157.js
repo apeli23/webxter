@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
-// import * as tf from "@tensorflow/tfjs";
+import * as tf from "@tensorflow/tfjs";
 import * as bodyPix from "@tensorflow-models/body-pix";
-import '@tensorflow/tfjs-backend-webgl';
 
 const modelConfig = {
   architecture: "MobileNetV1",
